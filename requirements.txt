@@ -1,0 +1,6 @@
+# requirements.txt
+# Dependencias del proyecto
+
+flask
+langdetect
+textblob

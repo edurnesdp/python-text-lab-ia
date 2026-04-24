@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Analysis Result</h1>
+    <h2>Text Analysis</h2>
+    <ul>
+        <li>Length: {{ analysis['longitud'] }}</li>
+        <li>Words: {{ analysis['palabras'] }}</li>
+        <li>Characters: {{ analysis['caracteres'] }}</li>
+        <li>Language: {{ analysis['idioma'] }}</li>
+        <li>Tono Emocional: {{ emotional_tone['tone'] }}</li>
+    </ul>
+
+    <h2>Authorship Variation</h2>
+    <ul>
+        <li>Significant Variations: {{ authorship['significant_variations'] }}</li>
+    </ul>
+
+    <a href="/">Go Back</a>
+</body>
+</html>

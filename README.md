@@ -25,7 +25,36 @@ Este repositorio forma parte de mi laboratorio personal de aprendizaje, donde de
 
 ---
 
+## Nueva funcionalidad: Interfaz web
+
+Ahora el proyecto incluye una interfaz web sencilla utilizando Flask. Esta permite interactuar con las funcionalidades del análisis de texto desde un navegador.
+
+### Ejecución de la aplicación web
+
+1. Asegúrate de tener instaladas las dependencias ejecutando:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Inicia el servidor web con el siguiente comando:
+   ```bash
+   python3 app.py
+   ```
+3. Abre tu navegador y ve a `http://127.0.0.1:5000`.
+
+### Funcionalidades disponibles en la interfaz web
+- Análisis de texto: longitud, palabras, caracteres y detección de idioma.
+- Detección de variaciones estilísticas para identificar posibles diferencias de autoría.
+
+---
+
 ## Ejecución
 
 ```bash
-python main.py "Texto de prueba para analizar"
+python3 main.py "Texto de prueba para analizar"
+```
+
+---
+
+## Nota
+
+Este proyecto ha sido desarrollado con el apoyo de GitHub Copilot, una herramienta de inteligencia artificial que asiste en la programación y el desarrollo de software. Su uso ha permitido acelerar el proceso de desarrollo y mantener un enfoque en la calidad del código.

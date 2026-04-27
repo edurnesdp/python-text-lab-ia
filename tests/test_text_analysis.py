@@ -21,7 +21,7 @@ class TestTextAnalysis(unittest.TestCase):
     def test_detect_emotional_tone_positive(self):
         text = "Soy Feliz."
         result = detect_emotional_tone(text)
-        self.assertEqual(result["tone"], "neutral")
+        self.assertEqual(result["tone"], "positivo")
 
     def test_detect_emotional_tone_negative(self):
         text = "Esto es terrible."

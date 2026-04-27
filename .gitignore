@@ -34,5 +34,3 @@ build/
 dist/
 *.egg-info/
 
-# Ignorar la carpeta modules
-modules/
